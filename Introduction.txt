@@ -3,6 +3,8 @@ Section 1A
 
 This is my first file in my REPO.
 
+[Note] 
+Method/guide used to add this " https://www.youtube.com/watch?v=IeL7iq7Lb90 "
 
 (add more bio) 
 
