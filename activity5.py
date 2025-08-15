@@ -1,3 +1,4 @@
-x = input("Enter Here - - >")
+x = eval(input("Enter Here - - >"))
+
 
 print("this data type", type(x))
