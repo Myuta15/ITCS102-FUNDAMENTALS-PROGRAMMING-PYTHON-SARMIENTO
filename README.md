@@ -16,13 +16,13 @@ Repository of Computer Program developed in Python for our Subject ITCS102 - Fir
 
 
 ## Activity Files Here
-[Activity 1](activity1.py)
-[Activity 2](activity2.py)
-[Activity 3](activity3.py)
-[Activity 4](activity4.py)
-[Activity 5](activity5.py)
-[Activity 6](activity6.py)
-[Activity 7](activity7.py)
-[Activity 8](activity8.py)
-[Activity 9](activity9.py)
-[Activity 10](activity10.py)
+- [Activity 1](activity1.py)
+- [Activity 2](activity2.py)
+- [Activity 3](activity3.py)
+- [Activity 4](activity4.py)
+- [Activity 5](activity5.py)
+- [Activity 6](activity6.py)
+- [Activity 7](activity7.py)
+- [Activity 8](activity8.py)
+- [Activity 9](activity9.py)
+- [Activity 10](activity10.py)
