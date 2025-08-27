@@ -2,7 +2,7 @@
 Repository of Computer Program developed in Python for our Subject ITCS102 - First Year First Semester
 
 
-##What I Learned
+## What I Learned
 - **Activity 1:** Displaying text `print()`.
 - **Activity 2:** Getting user input
 - **Activity 3:** Formatting text with escape characters (`\n`, `\t`, `\\`, `\"`).
