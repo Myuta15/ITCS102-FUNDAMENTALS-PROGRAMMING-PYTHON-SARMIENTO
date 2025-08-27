@@ -1,10 +1,10 @@
 username = "MTS"
-password = "akg15"
+pin = "akg15"
 
 name = input("please input your username > ")
 password = input("Password?")
 
-if password.lower() == "akg15" and username == "MTS":
+if password.lower() == pin and username == name:
 		print("ACCESS GRANTED")
 
 else: 
