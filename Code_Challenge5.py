@@ -8,7 +8,7 @@ if genre == "action":
     if length == "short" and decade == "2000s":
         print("Recommendation: Black Lagoon")
     elif length == "short" and decade == "2010s":
-        print("Recommendation: One Punch Man")
+        print("Recommendation: Gangsta")
     elif length == "short" and decade == "2020s":
         print("Recommendation: Gleipnir")
     elif length == "medium" and decade == "2000s":
@@ -16,7 +16,7 @@ if genre == "action":
     elif length == "long" and decade == "2000s":
         print("Recommendation: Bleach")
     elif length == "long" and decade == "2010s":
-        print("Recommendation: Gangsta")
+        print("Recommendation: One Punch Man")
     elif length == "long" and decade == "2020s":
         print("Recommendation: Chainsaw Man")
     else:
@@ -63,4 +63,5 @@ if length not in ["short", "medium", "long"]:
 if decade not in ["2000s", "2010s", "2020s"]:
 
     print("Invalid decade. Please choose from '2000s', '2010s', or '2020s'.")
+
 
