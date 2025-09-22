@@ -9,4 +9,5 @@ for i in range(1, 11, 1):
     print() 
 
 #spaces in the ("") can affect the spacing. so if i were to remove the space
-#in y's print it'd be a triangle
+#in y's print it'd be a triangle/pyramid
+#disable y and it rotate/lean to the other side 
