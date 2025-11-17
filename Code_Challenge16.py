@@ -1,5 +1,9 @@
 import os
 
+os.system("cls")
+print("STUDENT INFORMATION SYSTEM")
+print("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ")
+
 student_records = {}
 
 while True: 
@@ -16,7 +20,7 @@ while True:
         last_name = input("Type the Student's Last name - - - > ").upper()
         course = input("Type the Student's Course - - - > ").upper()
         email = input("Type the Student's email address - - - > ")
-        isSingle= input("ARE YOU AN MC OR TARNISH? (M / T) - - - >")
+        isSingle= input("Are you Single or Married? (S / M) - - - >")
 
         student_records = {search_code : [first_name, last_name, course, email]}
         print("DATA SAVED")
@@ -31,3 +35,16 @@ while True:
         for j in student_records.keys():
             if code in student_records.keys():
                 print("Record Found . . . ")
+        continue
+    elif choice =='C':
+        pass
+        continue
+    elif choice == 'D':
+        print("EDITING EXISTING RECORD . . . ")
+        continue
+    elif choice == 'E':
+        print("SYSTEM EXIT")
+        break
+    else:
+        print("\nINVALID CHOICE, PLEASE RE-ENTER YOUR CHOICE")
+        continue
