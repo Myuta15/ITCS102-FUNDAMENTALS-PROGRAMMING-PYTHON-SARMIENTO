@@ -36,7 +36,7 @@ while True:
             if code in student_records.keys():
                 print("Record Found . . . ")
                 
-                for i in student_records[code].values():
+                for i in student_records[code]:
                     print(i)
 
             else: print("NO RECORD FOUND . . . ")
@@ -53,3 +53,4 @@ while True:
     else:
         print("\nINVALID CHOICE, PLEASE RE-ENTER YOUR CHOICE")
         continue
+
