@@ -7,8 +7,8 @@ print("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 student_records = {}
 
 while True: 
-    print("Select from the options: \nA - Add Information\nB - Search a Record\nC - Delete a Record\nD - Modify a Record\nE - Exit ").upper()
-
+    print("Select from the options: \nA - Add Information\nB - Search a Record\nC - Delete a Record\nD - Modify a Record\nE - Exit ")
+    print("MUST BE CAPITALIZED")
     choice = input("Your Choice - - - - > ")
 
     if choice == 'A':
@@ -35,6 +35,11 @@ while True:
         for j in student_records.keys():
             if code in student_records.keys():
                 print("Record Found . . . ")
+                
+                for i in student_records[code].values():
+                    print(i)
+
+            else: print("NO RECORD FOUND . . . ")
         continue
     elif choice =='C':
         pass
