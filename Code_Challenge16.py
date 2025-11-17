@@ -7,7 +7,7 @@ print("= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 student_records = {}
 
 while True: 
-    print("Select from the options: \nA - Add Information\nB - Search a Record\nC - Delete a Record\nD - Modify a Record\nE - Exit ")
+    print("Select from the options: \nA - Add Information\nB - Search a Record\nC - Delete a Record\nD - Modify a Record\nE - Exit\nP - Print All ")
     print("MUST BE CAPITALIZED")
     choice = input("Your Choice - - - - > ")
 
@@ -22,7 +22,7 @@ while True:
         email = input("Type the Student's email address - - - > ")
         isSingle= input("Are you Single or Married? (S / M) - - - >")
 
-        student_records = {search_code : [first_name, last_name, course, email]}
+        student_records = {search_code : [first_name, last_name, course, email, isSingle]}
         print("DATA SAVED")
 
         os.system('cls')
@@ -50,7 +50,9 @@ while True:
     elif choice == 'E':
         print("SYSTEM EXIT")
         break
+    elif choice == "P":
+        for i,j in student_records.items():
+            print(f"Code - {i} STORED INFORMATION - - - > {j}")
     else:
         print("\nINVALID CHOICE, PLEASE RE-ENTER YOUR CHOICE")
         continue
-
