@@ -4,7 +4,7 @@ tuloy = True
 empty_dictionary ={}
 
 def print_anime():
-   for i,j in empty_dictionary.items():
+   if i,j in empty_dictionary.items():
       print(f"CODE = {i} \nTITLE= {j}")
 
 def pang_search(key):
@@ -38,5 +38,6 @@ while tuloy == True:
        print("INPUT SOMETHING VALID")
        
 print(empty_dictionary)
+
 
 #The Search Won't Function Right
